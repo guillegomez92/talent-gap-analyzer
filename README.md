@@ -2,7 +2,7 @@
 
 ## Descripción
 
-El **TALENT GAP ANALYZER** es un desafío innovador que invita a desarrolladores, científicos de datos y especialistas en recursos humanos a crear soluciones que compriman un proceso de análisis de brechas de talento que normalmente toma semanas en una microapp que lo complete en menos de 36 horas. Utilizando frameworks de IA y workflows automatizados, los participantes deben construir un sistema configurable que funcione para cualquier tipo de empresa con hasta 300 empleados.
+El **TALENT GAP ANALYZER** es un desafío innovador que invita a desarrolladores, científicos de datos y especialistas en recursos humanos a crear soluciones que compriman un proceso de análisis de brechas de talento que normalmente toma 3-5 días en una app que lo complete en menos de 5 horas. Utilizando frameworks de IA y workflows automatizados, los participantes deben construir un sistema configurable que funcione para cualquier tipo de empresa con hasta 300 empleados.
 
 ---
 
@@ -26,7 +26,7 @@ El **TALENT GAP ANALYZER** es un desafío innovador que invita a desarrolladores
 En el entorno empresarial actual, la identificación y desarrollo de talento es crítica para la competitividad y el crecimiento organizacional. Sin embargo, los procesos tradicionales de análisis de brechas de talento (gap analysis) son laboriosos, toman múltiples días y requieren alta intervención manual.
 
 ### El Problema:
-- Procesos manuales que toman semanas para completarse
+- Procesos manuales que toman 3-5 días para completarse
 - Alto costo de oportunidad en recursos dedicados
 - Dificultad para adaptarse a diferentes estructuras organizacionales
 - Necesidad de expertise especializado en RH e IA para ejecutar análisis
@@ -66,16 +66,16 @@ Existe una demanda clara por herramientas que combinen workflows de automatizaci
 
 ## El Reto
 
-**Desarrollar una microapp que combine workflows de automatización e inteligencia artificial para transformar el proceso de talent gap analysis de días a horas, siendo configurable para cualquier tipo de empresa hasta 300 empleados.**
+**Desarrollar una app que combine workflows de automatización e inteligencia artificial para transformar el proceso de talent gap analysis de días a horas, siendo configurable para cualquier tipo de empresa hasta 300 empleados.**
 
 ### Requisitos Core:
-✅ Reducir tiempo de análisis de semanas a < 36 horas  
+✅ Reducir tiempo de análisis de 3-5 días a < 5 horas  
 ✅ Ser configurable para CUALQUIER tipo de empresa (sector agnóstico)  
 ✅ Permitir definición dinámica de: departamentos, roles, responsabilidades, competencias  
 ✅ Calcular brechas de talento usando algoritmo multi-factor  
 ✅ Generar recomendaciones y narrativas automáticas con IA  
 ✅ Escalar hasta 300 empleados sin degradación significativa  
-✅ Mantener reproducibilidad (mismo input = mismo output)  
+✅ Mantener reproducibilidad (mismo input = mismo output)
 
 ---
 
@@ -91,16 +91,6 @@ Existe una demanda clara por herramientas que combinen workflows de automatizaci
 - Generar matriz de gaps por empleado
 - Clasificar empleados en bandas: READY, READY_WITH_SUPPORT, NEAR, FAR, NOT_VIABLE
 - Producir reportería básica con visualizaciones de distribución
-
-**Entregables Esperados:**
-```
-/nivel1/
-├── data_pipeline.py          # Limpieza y validación
-├── gap_calculator.py         # Algoritmo de cálculo
-├── reports_basic.py          # Reportería básica
-├── requirements.txt
-└── ejemplo_ejecucion.ipynb   # Notebook demostrativo
-```
 
 **Criterios de Éxito:**
 - Pipeline procesa correctamente datos de entrada
@@ -121,21 +111,6 @@ Existe una demanda clara por herramientas que combinen workflows de automatizaci
 - Implementar validaciones de consistencia entre componentes
 - Generar diagnosticos de configuración pre-ejecución
 - Optimizar performance para múltiples departamentos
-
-**Entregables Esperados:**
-```
-/nivel2/
-├── config_engine.py           # Motor de configuración
-├── workflow_orchestrator.py   # Orquestación de flujos
-├── config_templates/
-│   ├── tech_company.json
-│   ├── services_company.json
-│   └── template_base.json
-├── validation_rules.py        # Reglas de validación
-├── reports_advanced.py        # Reportería avanzada
-├── requirements.txt
-└── quick_start_guide.md
-```
 
 **Criterios de Éxito:**
 - Configuración es agnóstica al sector
@@ -158,23 +133,6 @@ Existe una demanda clara por herramientas que combinen workflows de automatizaci
 - Producir planes de desarrollo personalizados
 - Validar que recomendaciones son viables y accionables
 - Implementar guardrails para evitar sesgos
-
-**Entregables Esperados:**
-```
-/nivel3/
-├── llm_integration.py         # Integración con LLM
-├── prompts/
-│   ├── analysis_prompt.md
-│   ├── recommendation_prompt.md
-│   └── narrative_prompt.md
-├── recommendation_engine.py   # Motor de recomendaciones
-├── narrative_generator.py     # Generador de narrativas
-├── bias_detection.py          # Detección de sesgos
-├── reports_executive.py       # Reportes ejecutivos
-├── example_narratives.md
-├── requirements.txt
-└── deployment_guide.md
-```
 
 **Criterios de Éxito:**
 - Narrativas generadas son coherentes y accionables
