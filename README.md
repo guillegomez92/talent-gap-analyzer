@@ -26,7 +26,7 @@ El **TALENT GAP ANALYZER** es un desafío innovador que invita a desarrolladores
 En el entorno empresarial actual, la identificación y desarrollo de talento es crítica para la competitividad y el crecimiento organizacional. Sin embargo, los procesos tradicionales de análisis de brechas de talento (gap analysis) son laboriosos, toman múltiples días y requieren alta intervención manual.
 
 ### El Problema:
-- Procesos manuales que toman 3-5 días para completarse
+- Procesos manuales que toman semanas para completarse
 - Alto costo de oportunidad en recursos dedicados
 - Dificultad para adaptarse a diferentes estructuras organizacionales
 - Necesidad de expertise especializado en RH e IA para ejecutar análisis
@@ -69,7 +69,7 @@ Existe una demanda clara por herramientas que combinen workflows de automatizaci
 **Desarrollar una microapp que combine workflows de automatización e inteligencia artificial para transformar el proceso de talent gap analysis de días a horas, siendo configurable para cualquier tipo de empresa hasta 300 empleados.**
 
 ### Requisitos Core:
-✅ Reducir tiempo de análisis de 3-5 días a < 5 horas  
+✅ Reducir tiempo de análisis de semanas a < 36 horas  
 ✅ Ser configurable para CUALQUIER tipo de empresa (sector agnóstico)  
 ✅ Permitir definición dinámica de: departamentos, roles, responsabilidades, competencias  
 ✅ Calcular brechas de talento usando algoritmo multi-factor  
