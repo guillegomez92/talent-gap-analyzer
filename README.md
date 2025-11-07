@@ -2,7 +2,7 @@
 
 ## Descripción
 
-El **TALENT GAP ANALYZER** es un desafío innovador que invita a desarrolladores, científicos de datos y especialistas en recursos humanos a crear soluciones que compriman un proceso de análisis de brechas de talento que normalmente toma 3-5 días en una microapp que lo complete en menos de 5 horas. Utilizando frameworks de IA y workflows automatizados, los participantes deben construir un sistema configurable que funcione para cualquier tipo de empresa con hasta 300 empleados.
+El **TALENT GAP ANALYZER** es un desafío innovador que invita a desarrolladores, científicos de datos y especialistas en recursos humanos a crear soluciones que compriman un proceso de análisis de brechas de talento que normalmente toma semanas en una microapp que lo complete en menos de 36 horas. Utilizando frameworks de IA y workflows automatizados, los participantes deben construir un sistema configurable que funcione para cualquier tipo de empresa con hasta 300 empleados.
 
 ---
 
